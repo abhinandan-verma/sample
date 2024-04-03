@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abhinandan-verma/sample-tailwind/issues"
   },
-  "homepage": "https://github.com/abhinandan-verma/sample-tailwind#readme"
+  "homepage": "https://github.com/abhinandan-verma/sample-tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
