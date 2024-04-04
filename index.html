@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="accordian.css" />
     <link rel="stylesheet" href="container.css" />
+    <link rel="stylesheet" href="tab.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
      <!-- swiper css -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">      
@@ -21,85 +22,128 @@
     
 <body >
 
-    
-   
-    
     <!-- top-bar -->
-    <div class="top-bar"  id="welcome" style="background-color: blue; display: flex; height: 50px; align-items: center;">
-        <p style="color: wheat; margin-inline-end: 70%;">Welcome to skilledUp!</p>
-        <a href="#"><h6 style="color: rgb(253, 252, 252); margin: 50px;">Need Help</h6></a>
-        <a href="#"><h6 style="color: rgb(251, 250, 248);">Contact Us</h6></a>
+    <div  style="background-color: blue; display: flex; height: 50px; justify-content: space-between; padding-top: 10px; padding-bottom: 10px;">
+       <h5 style="color: white;">Welcome to skilledUp!</h5>
+       <div style="display: flex; justify-content: space-between; margin-right: 10px;">
+            <a href="https://skilledup.tech/course/faq.php"><h5 style="color: white; margin-right: 20px;">Need Help</h5></a>
+            <a href="https://skilledup.tech/course/contact.php"><h5 style="color: white;">Contact Us</h5></a>
+       </div>
     </div>
 
+
     <!-- header -->
-    <header style="display: flex; margin: 0px;" >
+    <header style="display: flex; margin: 0px; justify-content: flex-end;" >
 
         <!-- nav-bar -->
-        <div class="navbar" style="display: flex; justify-content: start;">
-    
-            <div style="justify-content: center; display: flex; margin-right: 100px; margin-left: 150px;">
-                <a href="https://skilledup.tech">
-                    <img src="./assets/asset 3.png" alt="logo" style="width: 70px; padding: 0px; margin: 0px;">
-                </a>
-                <div style="align-self: center; display: flex;">
-                    <div class="dropdown">
-                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Courses</h5>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">Data Science >></a>
-                            <a href="#">Web Development >></a>
-                            <a href="#">Masterclass >></a>
-                            <a href="#">Workshop >></a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Projects</h5>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">Coming soon...</a>
-                            <a href="#">Coming soon...</a>
-                            <a href="#">Coming soon...</a>
-                        </div>
-                    </div> 
-                    <div class="dropdown">
-                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Test Series</h5>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">Coming soon...</a>
-                            <a href="#">Coming soon...</a>
-                            <a href="#">Coming soon...</a>
-                        </div>
-                    </div> 
-                    <div class="dropdown">
-                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Company</h5>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">About Us</a>
-                            <a href="#">Contact</a>
-                            <a href="#">Terms & Conditions</a>
-                            <a href="#">Privacy policy</a>
-                            <a href="#">FAQs</a>
-                        </div>
-                    </div> 
+        <div >
+            <div style="height: 80px;">
+                <div class="menu-bar" style=" padding: 5px; display: flex; justify-content: center; ;" >
+                    <a href="https://skilledup.tech">
+                        <img src="./images/logo(1) copy.png" alt="logo" style="width: 70px; margin: 0%;">
+                    </a>
                     
+                    <div style="display: flex; justify-content: center;">
+                        <ul>
+                      <li><a href="#">
+                        Courses<i class="fas fa-caret-down"></i>
+                    </a>
+                          <div class="dropdown-menu">
+                              <ul>
+                                <li>
+                                    <a href="#">Pricing</a>
+                                </li>              
+                                <li>
+                                  <a href="#">Data Science >></a>
+                                  
+                                  <div class="dropdown-menu-1">
+                                    <ul>
+                                      <li><a href="#">DATA SCIENCE GURUS 2.0</a></li>
+                                      <li><a href="#">FULL STACK DATA SCIENCE</a></li>
+                                      <li><a href="#">FULL STACK DATA ANALYTICS</a></li>
+                                      <li><a href="#">FULL STACK BUISNESS ANALYTICS</a></li>
+                                      <li><a href="#">DATA SCIENCE GURUS</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                    <a href="#">Web <br>Development >></a>
+                                    <div class="dropdown-menu-1">
+                                        <ul>
+                                            <li><a href="">Coming soon</a></li>
+                                            <li><a href="">Coming soon</a></li>
+                                            <li><a href="">Coming soon</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                              </ul>
+                            </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Projects<i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="">Coming soon</a></li>
+                                <li><a href="">Coming soon</a></li>
+                                <li><a href="">Coming soon</a></li>
+                            </ul>
+        
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                        Test Series<i class="fas fa-caret-down"></i>
+                    </a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="#">Coming soon</a></li>
+                                <li><a href="">Coming soon</a></li>
+                                <li><a href="">Coming soon</a></li>
+                            </ul>
+        
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Company<i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Privacy policy</a></li>
+                                <li><a href="">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                        </ul>
+                    </div>
+        
                     <button class="nav-btn-1">
-                        <h3> Sign Up</h3>
+                        <a href="https://skilledup.tech/register"> <h3> Sign Up</h3></a>
+                       
                     </button>   
                     <button class="nav-btn-2">
-                        <h3> Login</h3>
-                    </button>   
+                        <a href="https://skilledup.tech/login"> <h3> Login</h3></a>
+                       
+                    </button>
+        
                 </div>
+              
+                  <div class="hero">
+                    &nbsp;
+                  </div>
             </div>
+
         </div>
             <button class="header-user" >
-                <img src="https://skilledup.tech/assets/img/avtaar.png" style="width: 40px; background-color: white;">
+                <img src="https://skilledup.tech/assets/img/avtaar.png" style="width: 40px; background-color: white; margin: 0%;">
             </button>
     </header>
-
     
     <!-- Data Science GURUS -->
     <div class="data">    
@@ -122,10 +166,10 @@
             
             <div style="display: inline;">
                 <button style="background-color: blue; border-radius: 10px; padding: 15px; margin-right: 20px; width: 180px;">
-                    <a href="https://skilledup.tech/courses.php" style="color: white; font-size: large;">Enroll Now >></a>
+                    <a href="https://skilledup.tech/dashboard-2/stu_dashboard4/easebuzz/index.php?id=97" style="color: white; font-size: large;">Enroll Now >></a>
                 </button>
                 <button style="background-color: rgb(255, 0, 247); border-radius: 10px; padding: 15px; width: 180px;">
-                    <a href="#" style="color: white; font-size: large;">Syllabus >></a>
+                    <a href="https://skilledup.tech/syllabus-ragistration.php?course_id=dsgurus2&pdfname=3044855DATA%20SCIENCE%20GURUs%202.0.pdf" style="color: white; font-size: large;">Syllabus >></a>
                 </button>
             </div>
         </div>
@@ -517,46 +561,113 @@
     <br>
 
     <!-- Carrer Services -->
-    <div >
-        <h1 style="margin-left: 20px; background-color: #48edfc; width: fit-content; padding: 10px; border-radius: 10px;">>> Career Services by skilledUp</h1>
-        <div class="card" style="width: 100%; margin: .5%; padding: 1%; background-color: rgb(136, 215, 239); display: flex;">
-            <div  style="width: 35%;">
-                <div class="card-body" style="padding: 0%;">
-                     <h2 style="background-color: rgb(44, 90, 240); border-radius: 10px; padding: 10px; color: white;">
-                            <i class="fa-solid fa-briefcase"></i>  Job Assistance
-                    </h2>
-                </div>
-                <div class="card-body" style="padding: 0%;">
-                    <h2 style="background-color: rgb(44, 90, 240); border-radius: 10px; padding: 10px; color: white;">
-                        <i class="fa-solid fa-address-card"></i> Interview Prep
-                   </h2>
-               </div>
-               <div class="card-body" style="padding: 0%;">
-                <h2 style="background-color: rgb(44, 90, 240); border-radius: 10px; padding: 10px; color: white;">
-                    <i class="fa-solid fa-user"></i> Profile Building
-               </h2>
-           </div>
-            </div>
-            <div style="width: 63%; border-radius: 20px; margin: 20px; padding: 15px;">
-                <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(238, 182, 246); ">
-                   <img src="https://cdn-icons-png.flaticon.com/512/7870/7870785.png" style="width: 80px; margin-right: 20px;"/>
-                    <div>
-                        <h2 style="color: black;">  Placement Assistance</h2>
-                        <h5 style="color: rgb(169, 91, 243);">
-                            <i class="fa-solid fa-calendar-days"></i> <b>After 20% of the course completion</b>
-                        </h5>
-                    </div>
-                </div>
-                <div class = "card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; margin-top: 10px; background-color: antiquewhite; ">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4154/4154631.png" style="width: 60px; margin-right: 20px;"/>
-                    <div>
-                        <h2 style="color: black;"> Exclusive Access to skilledUp Job Portal</h2>
-                        <h5 style="color: rgb(169, 91, 243);">
-                            <i class="fa-solid fa-calendar-days"></i> <b>After 80% of the course completion</b>
-                        </h5>
-                    </div>
-                </div>
-            </div>        
+    <div style="background-color: #aef0f1; align-items: center; justify-self: center;">
+        <h1 style="margin-left: 20px; background-color: #2beafc; width: fit-content; padding: 10px; border-radius: 10px;">>> Career Services by skilledUp</h1>
+        
+            <div class="tab-bar" >
+               
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">
+                          <i class="fa-solid fa-briefcase"></i> Job Assistance
+                      </button>
+                      <button class="tablinks" onclick="openCity(event, 'Paris')">
+                          <i class="fa-solid fa-address-card"></i>  Interview Prep
+                      </button>
+                      <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+                          <i class="fa-solid fa-user"></i> Profile Building
+                      </button>
+                      </div>
+                  
+                      <div id="London" class="tabcontent">
+                          <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(246, 182, 239); ">
+                              <img src="https://cdn-icons-png.flaticon.com/512/7870/7870785.png" style="width: 80px; margin-right: 20px;"/>
+                               <div>
+                                   <h2 style="color: black;">  Placement Assistance</h2>
+                                   <h5 style="color: rgb(130, 1, 251);">
+                                       <i class="fa-solid fa-calendar-days"></i> <b>After 20% of the course completion</b>
+                                   </h5>
+                               </div>
+                           </div>
+                           <br>
+                          <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(153, 226, 243); ">
+                              <img src="https://cdn-icons-png.flaticon.com/512/4154/4154631.png" style="width: 80px; margin-right: 20px;"/>
+                              <div>
+                                  <h2 style="color: black;">  Exclusive Access to job portal</h2>
+                                  <h5 style="color: rgb(205, 4, 250);">
+                                          <i class="fa-solid fa-calendar-days"></i> 
+                                          <b>After 20% of the course completion</b>
+                                      </h5>
+                              </div>
+                          </div>
+                      </div>
+                      
+                  
+                      <div id="Paris" class="tabcontent">
+                          <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(246, 191, 182); ">
+                              <img src="https://png.pngtree.com/png-vector/20230315/ourmid/pngtree-interview-line-icon-vector-png-image_6649646.png" style="width: 80px; margin-right: 20px;"/>
+                               <div>
+                                   <h2 style="color: black;">  Mock Interviews
+                                   </h2>
+                                   <h5 style="color: rgb(130, 3, 248);">
+                                       <i class="fa-solid fa-calendar-days"></i> <b>After 100% of the course completion</b>
+                                   </h5>
+                               </div>
+                           </div>
+                           <br>
+                           <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(182, 246, 227); ">
+                              <img src="https://www.dbu.edu/center-for-mentoring/images/mentoring-icon-2.png" style="width: 80px; margin-right: 20px;"/>
+                               <div>
+                                   <h2 style="color: black;">  1 on 1 Career Mentoring Sessions</h2>
+                                   <h5 style="color: rgb(159, 2, 249);">
+                                       <i class="fa-solid fa-calendar-days"></i> <b>After 40% of the course completion</b>
+                                   </h5>
+                               </div>
+                           </div>
+                      </div>
+                      
+                  
+                      <div id="Tokyo" class="tabcontent">
+                          <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(240, 197, 245); ">
+                              <img src="https://cdn-icons-png.flaticon.com/512/681/681494.png" style="width: 70px; margin-right: 20px;"/>
+                               <div>
+                                   <h2 style="color: black;">  Career Oriented sessions</h2>
+                                   <h5 style="color: rgb(132, 2, 253);">
+                                       <i class="fa-solid fa-calendar-days"></i> <b>Throughout the course</b>
+                                   </h5>
+                               </div>
+                           </div>
+                           <br>
+                           <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(197, 242, 244); ">
+                              <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" style="width: 80px; margin-right: 20px;"/>
+                               <div>
+                                   <h2 style="color: black;"> Resume & LinkedIn Profile Building</h2>
+                                   <h5 style="color: rgb(130, 4, 248);">
+                                       <i class="fa-solid fa-calendar-days"></i> <b>After 40% of the course completion</b>
+                                   </h5>
+                               </div>
+                           </div>
+                      </div>  
+        
+        <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+            }
+        
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
+        </div>
+            
        </div>
     </div>
 
@@ -574,7 +685,7 @@
                     <div class="fee-pay" >
                         <br>
                         <h4 style="color: black;">Course Fee</h4>
-                        <h2 style="color: black;">INR 10,000</h2>
+                        <h2 style="color: black; background-color: #8bfbca; border: #0349fa 1px solid; border-radius: 4px; padding: 7px;">INR 10,000</h2>
                     </div>
 
                     <div style="width: 900px;">
@@ -628,7 +739,7 @@
                 <h2>SignUp</h2>
                 <h6>Tell us a bit about yourself <br> (Name, Contact, Email, Address)</h6>
             </div>
-            <div class="apply-item" style="align-items: center; justify-content: center; border-top: #0349fa 4px;  background-color: #c2fadc;">
+            <div class="apply-item" style="align-items: center; justify-content: center; border-top: #0349fa 4px;  background-color: #88ebf4;">
                 <img src="https://cdn1.vectorstock.com/i/1000x1000/62/40/clipboard-with-check-mark-color-icon-vector-28876240.jpg" width="80px"/>
                 <h2>Enroll Now</h2>
                 <h6>Select your course you want to join <br>
@@ -636,7 +747,7 @@
                     Then click on Enroll Now Button. <br>
                     Pay your course fee.</h6>
             </div>
-            <div class="apply-item" style="align-items: center; justify-content: center; border: #0349fa; border-width: 7px;  background-color: #7cc1f9;">
+            <div class="apply-item" style="align-items: center; justify-content: center; border: #0349fa; border-width: 7px;  background-color: #7cf9c5;">
                 <img src="https://as2.ftcdn.net/v2/jpg/01/91/67/83/1000_F_191678353_47NveIKymJgoocgez7J8sAZsIUUSmqJg.jpg" width="80px"/>
                 <h2>Successful Enrollment</h2>
                 <h6>Once your payment completed successfully, <br>
@@ -1087,7 +1198,7 @@
 
     <div>
         
-        <div class="container" id="mentor" style="background-color: #cea8f6;">
+        <div class="container" id="mentor" style="background-image: linear-gradient(to right,rgb(252, 119, 252), rgb(103, 103, 245));">
             
                 <h1 style="margin-left: 20px; color: white; background-color: #8417f9; width: fit-content; padding: 10px; border-radius: 10px;">
                     >> Our Mentors
@@ -1173,7 +1284,7 @@
                 <div style="display: block; padding: 20px; width: 600px;">
                     <div >
                         <div class="footer-info">
-                          <h2 style="color:white; size: 30px;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lucknow Office</b></h4>
+                          <h2 style="color:white; size: 30px;"><b>&nbsp;&nbsp;Lucknow Office</b></h4>
                           <p style="font-weight:550; color: white;">
                             <i class="fa-solid fa-location-dot"></i> 
                             &nbsp;&nbsp;&nbsp;Kamlabad, Jankipuram Extension,<br>
@@ -1210,7 +1321,7 @@
         </div>
         
     </footer>
-    <div class="" style="background-color: #ffffff; color: black; width: 100%; align-self: center; margin-left: 800px;">
+    <div class="" style="background-color: #ffffff; color: black; width: 100%; text-align: center; ">
         
       <div class="copyright">
         © Copyright <strong><span>skilled</span><span class="headColor">Up</span></strong>. All Rights Reserved
@@ -1222,6 +1333,7 @@
     </div>
     
 </body>
+<script src="tab.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".slide-content", {
