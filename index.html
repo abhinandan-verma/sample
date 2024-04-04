@@ -6,161 +6,911 @@
     <title>skilledUp: Professional Live Training, Bootcamps with Certification and Internship | Learn Anything, On Your Schedule</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="output.css">
-    
-<style>
-    /* ============ desktop view ============ */
-@media all and (min-width: 992px) {
-    
-        .dropdown-menu li{
-            position: relative;
-        }
-        .dropdown-menu .submenu{ 
-            display: none;
-            position: absolute;
-            left:100%; top:-7px;
-        }
-        .dropdown-menu .submenu-left{ 
-            right:100%; left:auto;
-        }
-    
-        
-        .dropdown-menu > li:hover > .submenu{
-            display: block;
-        }
-    }
-
-    /* ============ desktop view .end// ============ */
-    /* ============ desktop view ============ */
-
-</style>
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="alumni.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="accordian.css" />
+    <link rel="stylesheet" href="container.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+     <!-- swiper css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">      
+     <!--    <link rel="stylesheet" href="css/style.css">-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body >
-    <div class="flex-row justify-end items-center"  id="welcome" style="background-color: blue; height: 40px; display: flex; align-items: center;">
-        <h4 style="color: wheat; margin-inline-end: 70%;">Welcome to skilledUp!</h4>
-        <a href="#"><h6 style="color: rgb(253, 252, 252); margin: 50px;">Need Help</h6></a>
-        <a href="#"><h6 style="color: rgb(251, 250, 248);">Contact Us</h6></a>
-    </div>
 
-    <header style="display: flex; height: 70px;">
-        <div class="container-fluid">
-            <div class="header content">
-                <div class="header-media">
-                    <div class="header-media-content" style="display: flex; justify-content: space-evenly;">
-                        <button class="header-user" style="width: 40px; align-self:flex-start;" >
-                            <img src="https://skilledup.tech/assets/img/avtaar.png" alt="user" >
-                        </button>
-                        <a href="https://skilledup.tech" style="display: flex; justify-content: center;">
-                            <img src="https://skilledup.tech/images/logo.png" alt="logo" style="width: 100px;">
-                        </a>
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid">
-                           
-                           <div class="collapse navbar-collapse" id="main_nav">
-                               
-                               
-                                   <ul class="navbar-nav" style="display: flex;">
-                                   <li class="nav-item dropdown"  style="display: flex;">
-                                       <!--<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="background:none;color:#233c7b">  Course  </a>-->
-                                       
-                                       <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="background:none;color:#233c7b">Course</a>  
-                                       
-                                       <ul class="dropdown-menu" >
-                                         
-                                                         
-                                         <li><a class="dropdown-item" href="https://skilledup.tech/category/datascience"> Data Science » </a>
-                                              <ul class="submenu dropdown-menu">
-                                                                         
-                                                        <li><a class="dropdown-item" href="https://skilledup.tech/course/dsgurus2">DATA SCIENCE GURUS 2.0</a></li>
-                                                     <li><a class="dropdown-item" href="https://skilledup.tech/course/ds7">FULL STACK DATA SCIENCE </a></li>
-                                                     <li><a class="dropdown-item" href="https://skilledup.tech/course/da7">FULL STACK DATA ANALYTICS </a></li>
-                                                     <li><a class="dropdown-item" href="https://skilledup.tech/course/ba7">FULL STACK BUSINESS ANALYTICS </a></li>                                                          <li><a class="dropdown-item" href="https://skilledup.tech/course/dsguru">DATA SCIENCE GURUs</a></li>                                               
-                                              
-                                            </ul>
-                                         </li>
-                                         
-                                           
-                                                         
-                                         <li><a class="dropdown-item" href="https://skilledup.tech/category/web-development"> Web Development » </a>
-                                              <ul class="submenu dropdown-menu">
-                                                                         
-                                                           
-                                              
-                                              
-                                            </ul>
-                                         </li>
-                                         
-                                           
-                                                         
-                                         <li><a class="dropdown-item" href="https://skilledup.tech/category/master-class"> Master Class » </a>
-                                              <ul class="submenu dropdown-menu">
-                                                                         
-                                                           
-                                              
-                                              
-                                            </ul>
-                                         </li>
-                                         
-                                           
-                                                         
-                                         <li><a class="dropdown-item" href="https://skilledup.tech/category/workshop"> Workshop » </a>
-                                              <ul class="submenu dropdown-menu">
-                                                                         
-                                                           
-                                              
-                                              
-                                            </ul>
-                                         </li>
-                                         
-                                                      </ul>
-                                   </li>
-                                   
-                               </ul>
-                               
-                                    <ul class="navbar-nav">
-                                   <li class="nav-item dropdown">
-                                       <!--<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="background:none;color:#233c7b">  Projects  </a>-->
-                                       
-                                       <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="background:none;color:#233c7b">Projects</a>  
-                                       
-                                       <ul class="dropdown-menu">
-                                                    </ul>
-                                   </li>
-                                   
-                               </ul>
-                               
-                                    <ul class="navbar-nav">
-                                   <li class="nav-item dropdown">
-                                       <!--<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="background:none;color:#233c7b">  Test Series  </a>-->
-                                       
-                                       <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" style="background:none;color:#233c7b">Test Series</a>  
-                                       
-                                       <ul class="dropdown-menu">
-                                                    </ul>
-                                   </li>
-                                   
-                               </ul>
-                               
-                                    
-                               
-                           </div>
-                           </div>
-                           </nav>
-                    <div class="header-media-buttons">
-                            
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    
+<body >
 
     
    
     
+    <!-- top-bar -->
+    <div class="top-bar"  id="welcome" style="background-color: blue; display: flex; height: 50px; align-items: center;">
+        <p style="color: wheat; margin-inline-end: 70%;">Welcome to skilledUp!</p>
+        <a href="#"><h6 style="color: rgb(253, 252, 252); margin: 50px;">Need Help</h6></a>
+        <a href="#"><h6 style="color: rgb(251, 250, 248);">Contact Us</h6></a>
+    </div>
+
+    <!-- header -->
+    <header style="display: flex; margin: 0px;" >
+
+        <!-- nav-bar -->
+        <div class="navbar" style="display: flex; justify-content: start;">
+    
+            <div style="justify-content: center; display: flex; margin-right: 100px; margin-left: 150px;">
+                <a href="https://skilledup.tech">
+                    <img src="./assets/asset 3.png" alt="logo" style="width: 70px; padding: 0px; margin: 0px;">
+                </a>
+                <div style="align-self: center; display: flex;">
+                    <div class="dropdown">
+                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Courses</h5>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Data Science >></a>
+                            <a href="#">Web Development >></a>
+                            <a href="#">Masterclass >></a>
+                            <a href="#">Workshop >></a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Projects</h5>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Coming soon...</a>
+                            <a href="#">Coming soon...</a>
+                            <a href="#">Coming soon...</a>
+                        </div>
+                    </div> 
+                    <div class="dropdown">
+                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Test Series</h5>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Coming soon...</a>
+                            <a href="#">Coming soon...</a>
+                            <a href="#">Coming soon...</a>
+                        </div>
+                    </div> 
+                    <div class="dropdown">
+                        <button class="dropbtn" style="display: flex;"> <h5 style="margin-right: 5px;">Company</h5>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">About Us</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Privacy policy</a>
+                            <a href="#">FAQs</a>
+                        </div>
+                    </div> 
+                    
+                    <button class="nav-btn-1">
+                        <h3> Sign Up</h3>
+                    </button>   
+                    <button class="nav-btn-2">
+                        <h3> Login</h3>
+                    </button>   
+                </div>
+            </div>
+        </div>
+            <button class="header-user" >
+                <img src="https://skilledup.tech/assets/img/avtaar.png" style="width: 40px; background-color: white;">
+            </button>
+    </header>
+
+    
+    <!-- Data Science GURUS -->
+    <div class="data">    
+    <div class="data-science" style="display: flex;">
+        <div style="width: 50%; padding: 10px;">
+            <h2 style="color: aliceblue;">>> Data Science GURUS</h2>
+            <h2 style="color: yellow;"> | Job Oriented Program</h2>
+            <p style="color: aliceblue; font-size: large;">
+                A specialized program in data science provides targeted courses covering 
+                statistical analysis, Python programming, machine learning, and data visualization.
+                Participants acquire skills in extracting insights from data, developing predictive 
+                models, and managing large datasets using tools such as Pandas, NumPy, and cloud 
+                platforms. The curriculum incorporates real-world projects, ethical considerations, 
+                and specialized tracks aligned with specific domains. These programs, available 
+                through universities and online platforms, empower learners with the essential skills 
+                for data-driven decision-making, laying a robust foundation for pursuing careers in 
+                data science across diverse industries.
+            </p>
+            <br>
+            
+            <div style="display: inline;">
+                <button style="background-color: blue; border-radius: 10px; padding: 15px; margin-right: 20px; width: 180px;">
+                    <a href="https://skilledup.tech/courses.php" style="color: white; font-size: large;">Enroll Now >></a>
+                </button>
+                <button style="background-color: rgb(255, 0, 247); border-radius: 10px; padding: 15px; width: 180px;">
+                    <a href="#" style="color: white; font-size: large;">Syllabus >></a>
+                </button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./assets/asset 18.jpeg" style="width: 600px; margin: 30px;" alt="Course">
+        </div>
+    </div>
+    <div class="data-science">
+        <div class="feature">
+            <div class="feature-item">
+                <i class="fa-solid fa-user"></i>
+                <p><b>7000+</b></p>
+                <h5>Students Enrolled</h5>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-book-open"></i>
+                <p><b>Learning Format</b></p>
+                <h5>Online</h5>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p><b>Duration</b></p>
+                <h5>3 Month</h5>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-business-time"></i>
+                <p><b>Internship</b></p>
+                <h5>1 Month</h5>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p><b>skilledUp</b></p>
+                <h5>Certification</h5>
+            </div>
+            <div class="feature-item">
+                <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                <p><b>Start Date</b></p>
+                <h5>1 April, 2024</h5>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%; height: 5px; background-color: blue;"></div>
+
+    <div class="button-bar">
+        <button class="btn">About</button>
+        <button class="btn">Curriculum</button>
+        <button class="btn">Eligibilty</button>
+        <button class="btn">Free Resources</button>
+        <button class="btn">Projects</button>
+        <button class="btn">Services</button>
+        <button class="btn">FAQ</button>
+    </div>
+    <div style="width: 100%; height: 5px; background-color: rgb(255, 0, 255);"></div>
+    </div>
+
+    <br>
+    
+    <!-- About & form -->
+    <div style="display: flex; padding: 10px; background-color: rgb(214, 221, 250);">
+        <div class="about" style="margin: 0px; padding: 0px; width: 60%; margin: 25px;"> 
+            <h1 style="color: blue;">
+                >> About Program
+            </h1>
+            <div class="card" style="background-color: aliceblue; padding: 20px; font-size: large; height: inherit; border-bottom: #054afa; border-width: 7px; border-color:blue ;">
+                <p>The data science specialization course encompasses statistics, 
+                    Python programming, machine learning, and data visualization. 
+                    Practical experience is gained through hands-on projects, 
+                    with a strong emphasis on ethics and privacy considerations. 
+                    Whether pursued online or at universities, this program empowers 
+                    graduates with the capabilities to analyze data, make informed decisions, 
+                    and thrive in roles driven by data across various industries.
+                </p>
+            </div>
+            <br>
+            <h1 style="color: #054afa;">>> Key Highlights</h1>
+            <div class="card" style="background-color: aliceblue; padding: 20px; font-size: x-large; height: fit-content; display: flex;  border-top: #f605fa; border-width: 7px; border-color: #f605fa; justify-content: center;">
+                <div>
+                    <h2><i class="fa-regular fa-circle-check"></i> Live Classes</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> 20+ Hours Doubt Sessions</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> Resolution of Doubts via Email Support</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> AI-Powered Profile Builder</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> Career Bootcamp</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> 20+ Projects</h2>
+                </div>
+                <div>
+                    <h2><i class="fa-regular fa-circle-check"></i> 78 Hours Live Sessions</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> Career Mentorship</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> Mock Interview</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> Industry Session</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> 1 Month Internship</h2>
+                    <h2><i class="fa-regular fa-circle-check"></i> Job Assurance Program</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="display: block; background-color: rgb(161, 208, 247); border-radius: 20px;">
+            <div class="" style="padding: 0%;" >
+                <h3 style=" background-color:#0349fa; height:120px; color:white; border-top:4px solid rgb(255, 0, 238); padding: 0px;" class="text-center mb-2">
+                    <b>Free Career Counselling</b>
+                    <br>
+                    <b style="font-size:14px; margin-bottom:20px;">We are happy to help you</b>
+                </h4>
+            </div>
+            <form id="contactForm" method="post" style="align-items: center; align-content: center;">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+              </div>
+              <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button class="nav-btn-1" type="submit" style="width: 90%;">Submit</button>
+            </form>
+          </div>
+    </div>
+    
+    <br>
+
+    <!-- About & Achievement -->
+    <div style="background-color: rgb(209, 248, 235); display: flex;">
+        <div style="display:flex; justify-content: center;">
+            <div style="margin: 20px; border-radius: 10px; border-color: #06994b; border-width: 4px; padding: 5%; ">
+                <h1>
+                    >> About SkilledUp Digital Skills Academy
+                </h1>
+                <h4 style="font-family:system-ui, -apple-system, BlinkMacSystemFont; font-size: larger;">
+                    skilledUp started as an educational company, It provides technical training 
+                    and certifications to students/professionals and prepares them for job 
+                    opportunities. Our goal is to make affordable education and experiential 
+                    skills accessible to everyone regardless of their disparate economic and 
+                    educational backgrounds. We empower students to make a bright career for 
+                    their own future.
+                </h4>
+                <br>
+                <h1>
+                   >> Key Achievements of skilledUp:
+                </h1>
+                <div class="list">
+                    <ul class="p-1" style="list-style:disc;line-height:40px;">                                          
+                        <li class="li">skilledUp have enrolled 7000+ Students and Successfully trained on Data Science &amp; Data Analyst Domain.</li>
+                        <li class="li">5000+ Student have been successfully transitioned into Data Science &amp; data Analyst profile in different Companies with an attractive package.</li>
+                       <li class="li">skilledUp is getting sample of queries on daily and trying to connect with everyone and help them to transitioned in a smooth way.
+                    </li>                                                                
+                </ul>
+            </div>
+            </div>
+            <div style="margin: 10px; padding: 20px; width: 100%;">
+                <div class="col-12 col-lg-4" style="margin:auto;">
+                    <img src="https://skilledup.tech/assets/img/team/certificate.jpg" style="width:100%;object-fit:cover;box-shadow:1px 2px 2px 2px;">
+                     <a class="mb-5"><a data-bs-toggle="modal" href="#certificate" class="mt-3" style="font-size:21px;color:#233c7b;">Click to view certificate</a>
+                     <br>
+                     <i class=""><b>Note:</b> All certificate images are for illustrative purposes only and may be subject to change at the discretion of the skilledUp.</i>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Carrer Services -->
+    <div>
+        <h1>>> Career Services by skilledUp</h1>
+        <div class="card" style="width: 100%; margin: .5%; padding: 1%; background-color: rgb(193, 238, 252); display: flex;">
+            <div  style="width: 35%;">
+                <div class="card-body" style="padding: 0%;">
+                     <h2 style="background-color: rgb(44, 90, 240); border-radius: 10px; padding: 10px; color: white;">
+                            <i class="fa-solid fa-briefcase"></i>  Job Assistance
+                    </h2>
+                </div>
+                <div class="card-body" style="padding: 0%;">
+                    <h2 style="background-color: rgb(44, 90, 240); border-radius: 10px; padding: 10px; color: white;">
+                        <i class="fa-solid fa-address-card"></i> Interview Prep
+                   </h2>
+               </div>
+               <div class="card-body" style="padding: 0%;">
+                <h2 style="background-color: rgb(44, 90, 240); border-radius: 10px; padding: 10px; color: white;">
+                    <i class="fa-solid fa-user"></i> Profile Building
+               </h2>
+           </div>
+            </div>
+            <div style="width: 63%; border-radius: 20px; margin: 20px; padding: 15px;">
+                <div class="card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; background-color: rgb(238, 182, 246); ">
+                   <img src="https://cdn-icons-png.flaticon.com/512/7870/7870785.png" style="width: 80px; margin-right: 20px;"/>
+                    <div>
+                        <h2 style="color: black;">  Placement Assistance</h2>
+                        <h5 style="color: rgb(169, 91, 243);">
+                            <i class="fa-solid fa-calendar-days"></i> <b>After 20% of the course completion</b>
+                        </h5>
+                    </div>
+                </div>
+                <div class = "card-body" style="display: flex;  justify-content: flex-start; align-items: flex-start; margin-top: 10px; background-color: antiquewhite; ">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4154/4154631.png" style="width: 60px; margin-right: 20px;"/>
+                    <div>
+                        <h2 style="color: black;"> Exclusive Access to skilledUp Job Portal</h2>
+                        <h5 style="color: rgb(169, 91, 243);">
+                            <i class="fa-solid fa-calendar-days"></i> <b>After 80% of the course completion</b>
+                        </h5>
+                    </div>
+                </div>
+            </div>        
+       </div>
+    </div>
+
+    <br>
+
+    <!-- Fee Structure -->
+    <div style="background-color: rgb(252, 253, 251); ">
+        <div class="fee" style="align-items: center; justify-content: center; background-color: rgb(169, 246, 223); border-radius: 20px; border-color: black; border-width: 4px;">
+            <h1 style="margin-left: 10px;">>> Fee Structure</h1>
+            <div class="card" style="width: 90%; background-color: rgb(167, 225, 248);">
+                <div style="background-color: rgb(146, 213, 254); border-radius: 15px; margin: 0; padding: 10px;">
+                    <h1 style="color: black;">Program Fee</h1>
+                </div>
+                <div class="feeinfo">
+                    <div class="fee-pay" >
+                        <br>
+                        <h4 style="color: black;">Course Fee</h4>
+                        <h2 style="color: black;">INR 10,000</h2>
+                    </div>
+
+                    <div style="width: 900px;">
+                        <input type="text" id="coupon" placeholder="Enter Coupon Code" style="width: 30%; height: 50px; padding: 10px; border-color: black; border-width: 3px;">
+                        <br>
+                        <br>
+                        <button style="color: white; background-color: rgb(234, 0, 255); border-radius: 7px ; margin-right: 20px; width: 180px;">
+                            <h3>Apply Coupon</h3>
+                        </button>
+                        
+                        <button style="color: rgb(254, 254, 255); background-color: rgb(2, 27, 244); border-radius: 7px; width: 180px;">
+                            <h3>Enroll Now</h3>
+                        </button>
+                    </div>
+                </div>
+            <!-- #region -->
+            <div style="display: flex; justify-content: left  ;">
+                <div>
+                    <h2 style="color: black;">Financing Parteners</h2>
+                    <div class="feeinfo" style="width: 50%;">
+                            <img src="https://skilledup.tech/assets/img/team/neev_logo1.png" style="object-fit:contain; width:30%;" class="col-12 col-md-3">
+                            <img src="https://skilledup.tech/assets/img/team/axio.png" style="object-fit:contain; width:30%;" class="col-12 col-md-3">
+                            <img src="https://skilledup.tech/assets/img/team/EarlySalary.png" style="object-fit:contain; width:40%;" class="col-12 col-md-3">
+                    </div>
+                    
+                </div>
+                <p class="row col-12 col-md-7" style="font-size: clamp(12px, 2vw, 15px);margin:auto;">
+                    <span class="col-12" style="font-size: clamp(12px, 2vw, 15px);">We partnered with financing companies to provide competitive finance option at 0% interest rate with no hidden costs</span>
+                    
+                </p>
+            </div>
+
+            <div class="row col-12 m-0" style="font-size: clamp(12px, 2vw, 15px); background-color:#f9b4b4; border-radius: 15px;  padding:1%; align-content: center;">
+                <span class="col-12 mt-3 text-center" style="font-weight:600;">Admissions will close once the requisite number of participants enrolled for the upcoming cohort.<br> Apply early to secure your seat now.</span>
+             </div>
+        </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <!-- How to Apply -->
+    <div class="apply" style="background-color: bisque;">
+        <h1 style="color: #0349fa; margin-left: 10px;">
+            >> How to Apply
+        </h1>
+        <div style="display: flex; margin: 0px; padding: 0px; background-color: #fcfafa;">
+            <div class="apply-item" style="align-items: center; justify-content: center; background-color: #efb1ed;">
+                <img src="https://www.kindpng.com/picc/m/495-4952535_create-digital-profile-icon-blue-user-profile-icon.png" width="80px"/>
+                <h2>SignUp</h2>
+                <h6>Tell us a bit about yourself <br> (Name, Contact, Email, Address)</h6>
+            </div>
+            <div class="apply-item" style="align-items: center; justify-content: center; border-top: #0349fa 4px;  background-color: #c2fadc;">
+                <img src="https://cdn1.vectorstock.com/i/1000x1000/62/40/clipboard-with-check-mark-color-icon-vector-28876240.jpg" width="80px"/>
+                <h2>Enroll Now</h2>
+                <h6>Select your course you want to join <br>
+                    Enter Promocode If any. <br>
+                    Then click on Enroll Now Button. <br>
+                    Pay your course fee.</h6>
+            </div>
+            <div class="apply-item" style="align-items: center; justify-content: center; border: #0349fa; border-width: 7px;  background-color: #7cc1f9;">
+                <img src="https://as2.ftcdn.net/v2/jpg/01/91/67/83/1000_F_191678353_47NveIKymJgoocgez7J8sAZsIUUSmqJg.jpg" width="80px"/>
+                <h2>Successful Enrollment</h2>
+                <h6>Once your payment completed successfully, <br>
+                    Your dashboard will be activated within 24 hours.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+   <!-- course curriculum -->
+
+     <h1 style="color:#225aa5; background-color: #c2fadc;" class="m-3" >
+        &nbsp;&nbsp;&nbsp;>> Students <b> Review</b>
+    </h1>
+    <br>
+    <div class="main">
+        <div class="slide-container swiper">
+            <div class="slide-content swiper-initialized swiper-horizontal">
+                <div class="card-wrapper swiper-wrapper" id="swiper-wrapper-129f468158b3a9fb" aria-live="off" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-3220px, 0px, 0px); transition-delay: 0ms;">                               <div class="card swiper-slide swiper-slide-next" role="group" aria-label="8 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="7">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/anusha-jha.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Anusha Jha</h2> 
+                                    <a href="https://www.linkedin.com/in/anusha-jha-8567a9101/" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Easebuzz</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        skilledUp learning journey resulted in a rewarding job 
+                                        upgrade, accompanied by a significant salary increase—an 
+                                        excellent experience!
+                                    </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div><div class="card swiper-slide" role="group" aria-label="9 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="8">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/vaibhav-rawat.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Vaibhav Rawat</h2> 
+                                    <a href="https://www.linkedin.com/in/vaibhav-rawat-6107a81b1/" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Paytm</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        skilledUp excels in Business Analytics training, 
+                                        hands-on projects. Self-learning content crucial insights, 
+                                        inriching the learning journey!
+                                    </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div><div class="card swiper-slide" role="group" aria-label="10 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="9">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/amit-kumar.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Amit Kumar</h2> 
+                                    <a href="https://www.linkedin.com/in/amit-kumar-9a482989/" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">EXL</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        SkilledUp course offered exceptional learning, 
+                                        extensive support, and comprehensive content. 
+                                        It was truly an outstanding experience!
+                                    </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div><div class="card swiper-slide" role="group" aria-label="11 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="10">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/arvind-singh.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Arvind Singh</h2> 
+                                    <a href="https://www.linkedin.com/in/arvind-singh-442718116/" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Dxc Technology</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        SkilledUp support team excels in providing responsive 
+                                        assistance and the trainers expertly deliver excellent 
+                                        learning experience.</p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div><div class="card swiper-slide" role="group" aria-label="1 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="0">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/Harish-C-Patel.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Harish C Patel</h2> 
+                                    <a href="https://www.linkedin.com/in/harish-c-patel-58ab13230/" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Accenture</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        SkilledUp sparked my learning passion. 
+                                        Personalized guidance and engaging curriculum 
+                                        made my educational journey exceptional.
+                                    </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide" role="group" aria-label="2 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="1">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/sharukh-ali.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Sharukh Ali</h2> 
+                                    <a href="https://www.linkedin.com/in/sharukh-ali-4755b2139/" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">One97 Communication</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        Thanks to skilledup!, I had an amazing learning experience with
+                                         SkilledUp, which ultimately helped me attain my goal of landing
+                                          a job successfully.️
+                                        </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide" role="group" aria-label="3 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="2">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/yogita-mehra.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Yogita Mehra</h2> 
+                                    <a href="https://www.linkedin.com/in/yogita-mehra-380a3875" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Paytm</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        Engaging, organized course, excellent notes. 
+                                        Exceptional teaching simplifies complex concepts. 
+                                        recommend SkilledUp courses!</p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide" role="group" aria-label="4 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="3">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/prajwal-sharma.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Prajwal Sharma</h2> 
+                                    <a href="https://www.linkedin.com/in/prajwal-sharmaðŸ‡®ðŸ‡³-560005210" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Paytm</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        Course structure well-organized. Live sessions, 
+                                        projects offered practical exposure, prioritized 
+                                        implementation over theory.
+                                    </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide" role="group" aria-label="5 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="4">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/puneet-mishra.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Puneet Mishra</h2> 
+                                    <a href="https://www.linkedin.com/in/puneet-mishra-4ab544258" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Optum</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        Enrolling in this data science program satisfies me. 
+                                        Notable: structured syllabus, course layout, 24/7 support, 
+                                        expert trainers in domains.
+                                    </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide swiper-slide-prev" role="group" aria-label="6 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="5">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/dhananjai-percussionist.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Dhananjai</h2> 
+                                    <a href="https://www.linkedin.com/in/dhananjai-percussionist/" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Lumen Solutions</h2>
+                                     <p style="margin: 10px; " class="description">I had a fantastic learning experience with skilledUp, successfully reaching my objective of securing a job as a result.Thanks skilledUp! </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide swiper-slide-active" role="group" aria-label="7 / 11" style="width: 297px; margin-right: 25px;" data-swiper-slide-index="6">
+                                <div class="image-content" style="max-height: 500px;">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="https://skilledup.s3.ap-south-1.amazonaws.com/images/review_profiles/nikita-gupta.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div style=" width: 100%; height:30px; display: flex; justify-content: space-evenly; ">
+                                    <h2 style="margin-bottom: 1px; font-weight: bold" class="name">Nikita Gupta</h2> 
+                                    <a href="https://www.linkedin.com/in/nikita-gupta-b00299b6" target="_blank" style="font-size: 22px; color: blue; margin-top: 5%;">
+                                            <i class="fab fa-linkedin"></i> <!-- Font Awesome LinkedIn icon -->
+                                    </a>
+                                </div>
+                                    <h2 class="name" style="height:30px; color:brown">Dxc Technology</h2>
+                                     <p style="margin: 10px; " class="description">
+                                        Excited to complete a 6-month Data Analytics program. 
+                                        Gained clear insight for success in the Data field. 
+                                        Dedication and late nights have paid off.
+                                    </p> 
+                                    <div style="font-size: 20px; color: orange;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                <div class="swiper-button-next swiper-navBtn" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-129f468158b3a9fb"></div>
+                <div class="swiper-button-prev swiper-navBtn" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-129f468158b3a9fb"></div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic" style="width: 80px;"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1" style="left: -64px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2" style="left: -64px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3" style="left: -64px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4" style="left: -64px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-prev-prev" tabindex="0" role="button" aria-label="Go to slide 5" style="left: -64px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-prev" tabindex="0" role="button" aria-label="Go to slide 6" style="left: -64px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main" tabindex="0" role="button" aria-label="Go to slide 7" style="left: -64px;" aria-current="true"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next" tabindex="0" role="button" aria-label="Go to slide 8" style="left: -64px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next-next" tabindex="0" role="button" aria-label="Go to slide 9" style="left: -64px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 10" style="left: -64px;"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 11" style="left: -64px;"></span></div>
+        </div>
+        <!-- swiper js -->
+    <!--    <script src="js/swiper-bundle.min.js"></script>-->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    </div>
+    <script>
+        var swiper = new Swiper(".slide-content", {
+          slidesPerView: 3,
+          spaceBetween: 25,
+          loop: true,
+          centerSlide: true,
+          fade: true,
+          grabCursor: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          autoplay: {
+            delay: 3000, // Adjust the delay in milliseconds (5 seconds in this example)
+          },
+          breakpoints: {
+            0: {
+              slidesPerView: 1,
+            },
+            520: {
+              slidesPerView: 2,
+            },
+            950: {
+              slidesPerView: 4,
+            },
+          },
+        });
+    
+    </script>
+                                           
+<br>
+<br>
+
+        <h1 style="color:#225aa5;" class="m-3">
+            &nbsp;&nbsp;&nbsp;>> Our <b> Alumni</b>
+        </h1>
+        <br>
+        <div class="container" >
+        <div class="col-md-12 row alumni" style="margin:0%; background-color: rgb(242, 243, 245); border : 2px solid;">
+            <div class="wrapper_alumni" style=" border-radius: 40px;">
+                <div class="photobanner1">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/cognizant.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/amazon.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/ey.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/tcs.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/yesbank.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/wipro.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/samsung.webp" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/payu.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/paytm.jpg" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/paypal.webp" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/paras.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/panasonic.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/concentrix.jpg" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/exl.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/flipkart.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/gartner.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/genpact.png" alt="">
+                      
+                </div>
+            
+                <div class="photobanner1" >
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/optum.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/matrix.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/mahindra.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/kotak.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/infosys.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/infoedge.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/igate.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/icici.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/ibm.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/hdfc.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/hcl.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/google.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/dhara.jpg" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/duracool.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/dxc.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/ericsson.png" alt="">
+                      <img class="alumni_img1" src="https://skilledup.tech/logos/ernst.png" alt="">
+     
+                </div>
+            </div>
+        </div>
+    </div>                 
+        
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Mentor -->
+    <div>
+        <div class="container" id="mentor">
+            <div class="mentors" id="mentors" >
+                <div style="background-color:rgb(193, 127, 253); width: 100%;">
+                    <h1 style="text-align: center">Our Mentors</h1>
+                </div>
+
+                <div class="about-mentor" id="aboutm">
+                    <div class="card">
+                       <img src="https://skilledup.tech/media/image/1140336Pic-removebg-preview(1).png" style="width:100px;margin-top:-40px;border:3px solid #233C7B;border-radius:50%;">
+
+                       <h4 class="frame-title mt-4 p-0" style="margin-bottom:5px; font-size: clamp(17px, 2vw, 20px);"><b>Vijay Narayan Singh</b></h4>
+                      
+                        <div class="card-body">
+                            <h3>Vijay Nararyan Singh</h4>
+                            <p>
+                                <b>Founder & CEO</b>
+                                <br>
+                                With 11+ years of comprehensive and in-depth experience as a Data Scientist,
+                                Data Analyst, and Business Analyst demonstrating a distinctive combination of technical breadth,
+                                business acumen, critical analysis, and decision-making. Worked on multiple products and categories.
+                                Having experience of 7+ years in educating people and helping them to make a career transition.
+                            </p>
+                            <br>
+                            <a href="" tabindex="0" style="background-color: rgb(231, 231, 239); width: 30px;"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                
+
+                <div class="card">
+                    
+                <img src="https://skilledup.tech/media/image/8878991amit-removebg-preview.png" style="width:100px;margin-top:-40px;border:3px solid #233C7B;border-radius:50%;">
+                   <h4 class="frame-title mt-4 p-0" style="margin-bottom:5px; font-size: clamp(17px, 2vw, 20px);"><b>Amit Kumar </b></h4>
+                   <p>With 10+ years of comprehensive and in-depth experience as a Python, 
+                    MySQL, Power BI, Tableau, &amp; More, I've honed a diverse skill set through extensive 
+                    real-world application. My passion lies in empowering individuals stepping into the world 
+                    of technology. Worked on multiple products and categories. Having experience of 7+ years 
+                    in educating people and helping them to make a career transition.
+                   </p>
+
+                   <br>
+                   
+                <a href="" tabindex="0" style="background-color: rgb(231, 231, 239); width: 30px;"><i class="fa-brands fa-linkedin"></i></a>
+                   
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
 
     <footer style="justify-content: space-between; background-color: black; display: flex; padding: 5%">
-        <div class="footer-top">
+        <div class="footer-top" id="footer-top">
             <div class="container" style="display: flex; justify-content: space-between; align-items: center-top;">
                 <div class="row p-2" style="display: flex;  margin-right: 60px;">
                     <div class="footer-info">
@@ -185,11 +935,11 @@
                                 <a href="https://www.linkedin.com/company/skilledupintelligence/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
                             </div>
                     </div>
-                </div>
+        
                 <div>
                     <div class="col-lg-4 col-md-4" style="margin-left: 20px; margin-right: 100px">
                         <div class="footer-info">
-                          <h4 style="color:white; size: 30px;"><b>Lucknow Office</b></h4>
+                          <h2 style="color:white; size: 30px;"><b>Lucknow Office</b></h4>
                           <p style="font-weight:550; color: white;">
                             <i class="fa-solid fa-location-dot"></i> 
                             &nbsp;&nbsp;&nbsp;Kamlabad, Jankipuram Extension, <br>
@@ -207,7 +957,7 @@
                     <div class="links" style="color: white; margin-left: 60px;">
                         <ul>
                             <!--<center>-->
-                                <h4>Useful Links</h4>
+                                <h2>Useful Links</h4>
                                 <br>
                                     <li><i class="fa-solid fa-chevron-right"></i> <a href="https://skilledup.tech/index.php">Home</a></li>
                                     <li><i class="fa-solid fa-chevron-right"></i><a href="https://skilledup.tech/aboutus.php">About us</a></li>
@@ -219,10 +969,50 @@
                           </ul>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </footer>
     
 </body>
 <script src="script.js"></script>
+<script src="accordian.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      spaceBetween: 25,
+      loop: true,
+      centerSlide: true,
+      fade: true,
+      grabCursor: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 3000, // Adjust the delay in milliseconds (5 seconds in this example)
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        520: {
+          slidesPerView: 2,
+        },
+        950: {
+          slidesPerView: 4,
+        },
+      },
+    });
+
+</script>
+
+<script></script>
 </html>

@@ -18,5 +18,8 @@
   "homepage": "https://github.com/abhinandan-verma/sample-tailwind#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "swiper": "^11.1.0"
   }
 }
