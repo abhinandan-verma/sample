@@ -1,35 +1,36 @@
 .accordion {
-  width: 50%;
-  max-width: 500px;
-  margin: 0 auto;
-  border: 8px solid #1a1818;
-}
-
-.accordion-btn {
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #acf5c6;
+  color: #444;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 18px;
   width: 100%;
+  border: none;
   text-align: left;
-  border-color: #1a1818;
-  border-style: double;
-  margin: 1px;
+  outline: auto;
+  font-size: 15px;
+  transition: 0.4s;
 }
 
-.accordion-btn:hover {
-  background-color: #ddd;
+.active, .accordion:hover {
+  background-color: #09b96a;
 }
 
-.accordion-content {
-  display: none;
-  padding: 10px 20px;
-}
-
-.chevron {
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
   float: right;
+  margin-left: 5px;
 }
 
-.rotate {
-  transform: rotate(180deg);
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
